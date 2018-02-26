@@ -2,12 +2,13 @@
 * 1D cellular automata currently supported
 
 ### Example
-```
-let input = '                    *                    ';
-let patternNumber = 126;
-let generations = 100;
 
-automata.plot('1D', input, patternNumber, generations);
+***Note: "input" contains 10 spaces followed by a * followed by 10 more spaces***
+```
+prompt: type:  1D
+prompt: input:                      *                    
+prompt: pattern:  126
+prompt: generations:  100
 ```
 
 ### Produces
