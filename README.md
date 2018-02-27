@@ -115,3 +115,18 @@ prompt: generations:  100
       ********             ********      
      **      **           **      **  
 ```
+
+### The Rule
+
+Given the pattern list: 
+```
+["   ", "  *", " * ", " **", "*  ", "* *", "** ", "***"]
+```
+
+We create a rule based on this condition (`i` is a number from `0 -> 7`)
+
+![patternNumber/pow2i](https://latex.codecogs.com/svg.latex?\bg_black&space;patternNumber/(2^i)&space;==&space;(1\or\0))
+
+In the former case, where the equation equals `1`, we map the pattern at index `i` to a `*` ("star") then set `patternNumber = (patternNumber % 2^i)`
+
+In the latter case, we map the pattern at index `i` to a ` ` ("space")
